@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Title</title>
+</head>
+
+<!-- http://localhost:3000/js_practic_01/index.html -->
+
+<body>
+
+<main>
+    <div class="container">
+        <section>
+            <div class="wrap-game">
+                <div class="time-game">
+                    Время игры: <span class="current-time">5.0</span>
+                </div>
+
+                <div class="game-result">
+                    Ваш результат: <span class="game-result-count"> 0</span>
+                </div>
+
+                <div class="game-canvas"></div>
+
+                <button class="start-game">Начать</button>
+
+                <div class="set-time-game">
+                    <label for="set-time-game">Установить время (сек)</label>
+                    <input type="number" min="5" step="1" value="5" id="set-time-game">
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+</main>
+<script src="script/main.js"></script>
+</body>
+</html>
